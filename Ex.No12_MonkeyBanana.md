@@ -29,12 +29,12 @@ Step 7: Stop the program.<br>
  :parameters (?x ?y)
  :precondition (and (location ?x) (location ?y) (on-floor) (at monkey ?y))
  :effect (and (at monkey ?x) (not (at monkey ?y))))
-```
-```
  (:action CLIMB
  :parameters (?x)
  :precondition (and (location ?x) (at box ?x) (at monkey ?x))
  :effect (and (onbox ?x) (not (on-floor))))
+```
+```
  (:action PUSH-BOX
  :parameters (?x ?y)
  :precondition (and (location ?x) (location ?y) (at box ?y) (at monkey ?y)
