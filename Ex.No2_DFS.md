@@ -40,13 +40,13 @@ dfs(visited, graph, '5')
 ```
 
 
-
 ```
 
 
 
 ### Output:
-![image](https://github.com/Pavishmi/AI_Lab_2023-24/assets/136091280/36bfc588-789d-4571-9722-6db1ed690cc3)
+![image](https://github.com/Pavishmi/AI_Lab_2023-24/assets/136091280/99eb14e1-be38-46a1-bf02-02db35181f9f)
+
 
 
 
