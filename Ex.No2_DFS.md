@@ -37,13 +37,11 @@ def dfs(visited, graph, node):  #function for dfs
 print("Following is the Depth-First Search")
 dfs(visited, graph, '5')
 ```
+```
 
 
 
-
-
-
-
+```
 
 
 
