@@ -20,18 +20,7 @@ Construct the FOL representation for the following sentences <br>
 4.	Sue eats everything Bill eats. <br> 
 5.	 Bill eats peanuts  <br> 
    Convert into clause form and Prove that John like Apple by using Prolog. <br>
-```
 
-
-
-
-
-
-
-
-
-
-```
 ### Program:
 ```
 likes(john,X):-
@@ -40,6 +29,8 @@ eats(bill,X):-
  eats(sue,X).
 eats(Y,X):-
  food(X).
+```
+```
 eats(bill,peanuts).
 food(apple).
 food(chicken).
