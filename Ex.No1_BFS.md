@@ -43,7 +43,8 @@ bfs(visited, graph, '5')    # function calling
 
 
 ### Output:
-![image](https://github.com/Pavishmi/AI_Lab_2023-24/assets/136091280/3c9835b0-f7eb-4393-9c6a-f480f89db497)
+![image](https://github.com/Pavishmi/AI_Lab_2023-24/assets/136091280/44db3555-fdaa-49f3-9c86-fb5cb705c84b)
+
 
 
 
