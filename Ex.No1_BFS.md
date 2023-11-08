@@ -27,11 +27,12 @@ def bfs(visited, graph, node): #function for BFS
     visited.append(node)
     queue.append(node)
     while queue:
-```
-```   
             m = queue.pop(0) 
             print (m)
             for neighbour in graph[m]:
+
+```
+```   
                 if neighbour not in visited:
                     visited.append(neighbour)
                     queue.append(neighbour)
