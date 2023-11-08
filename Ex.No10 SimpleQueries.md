@@ -19,7 +19,16 @@ Construct the FOL representation for the following sentences <br>
 3.	Chicken is a food.  <br> 
 4.	Sue eats everything Bill eats. <br> 
 5.	 Bill eats peanuts  <br> 
-   Convert into clause form and Prove that John like Apple by using Prolog. <br> 
+   Convert into clause form and Prove that John like Apple by using Prolog. <br>
+```
+
+
+
+
+
+
+
+```
 ### Program:
 ```
 likes(john,X):-
