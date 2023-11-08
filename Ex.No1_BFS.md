@@ -34,7 +34,9 @@ def bfs(visited, graph, node): #function for BFS
                     visited.append(neighbour)
                     queue.append(neighbour)
 ```
-```   
+```
+
+
 print("Following is the Breadth-First Search")
 bfs(visited, graph, '5')    # function calling
 ```
