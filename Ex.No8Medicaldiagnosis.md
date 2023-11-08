@@ -27,12 +27,12 @@ hypothesis(Patient,flu) :-
  symptom(Patient,sore_throat),
  symptom(Patient,runny_nose),
  symptom(Patient,cough).
-```
-```
 hypothesis(Patient,common_cold) :-
  symptom(Patient,headache),
  symptom(Patient,sneezing),
  symptom(Patient,sore_throat).
+```
+```
 hypothesis(Patient,chicken_pox) :-
  symptom(Patient,fever),
  symptom(Patient,chills),
