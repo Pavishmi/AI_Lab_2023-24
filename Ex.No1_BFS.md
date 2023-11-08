@@ -14,7 +14,7 @@ To write a python program to implement Breadth first Search.
 8.   Stop the program.
 ### Program:
 ```
-graph = {
+graph = { 
  '5' : ['3','7'],
  '3' : ['2', '4'],
  '7' : ['8'],
