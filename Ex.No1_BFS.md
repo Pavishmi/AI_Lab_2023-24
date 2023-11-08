@@ -37,6 +37,7 @@ def bfs(visited, graph, node): #function for BFS
 ```
 
 
+
 print("Following is the Breadth-First Search")
 bfs(visited, graph, '5')    # function calling
 ```
