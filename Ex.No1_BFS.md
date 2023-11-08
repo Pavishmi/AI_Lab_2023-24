@@ -30,12 +30,11 @@ def bfs(visited, graph, node): #function for BFS
             m = queue.pop(0) 
             print (m)
             for neighbour in graph[m]:
-
-```
-```   
                 if neighbour not in visited:
                     visited.append(neighbour)
                     queue.append(neighbour)
+```
+```   
 print("Following is the Breadth-First Search")
 bfs(visited, graph, '5')    # function calling
 ```
