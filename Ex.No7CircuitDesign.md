@@ -29,6 +29,8 @@ xor(1,0,1).
 xor(1,1,0).
 not(0,1).
 not(1,0).
+```
+```
 halfadder(A,B,S,C):-
     xor(A,B,S),
     and(A,B,C).
